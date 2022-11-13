@@ -5,5 +5,21 @@ public class Classroom extends Room{
     public Classroom(int area){
         super(area);
     }
+    public Classroom(int area, int numberOfChairs){
+        super(area);
+        this.numberOfChairs = numberOfChairs;
+    }
+    public int getNumberOfChairs(){
+        return this.numberOfChairs;
+    }
+    public void setNumOfChairs(int numberOfChairs){
+        this.numberOfChairs = numberOfChairs;
+    }
+    public int getCapacity(){
+        return this.numberOfChairs;
+    }
 
+    public static String toString(){
+        return "Classroom: " + super.area + " square feet " + "Capacity: " + (super.area / 9) + " Chairs: " + this.numberOfChairs;
+    }
 }
