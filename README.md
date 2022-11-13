@@ -1,3 +1,4 @@
+# Lab 13 Group
 This repo is the group project for Java 151.0002 lab 13.
 It consists of four main folder representing the four main roles. 
 
@@ -10,12 +11,12 @@ Group Lead:
 StringSet Lab:
 
 
-Rooms and More: Isaak Boehlert
+Rooms and More: **Isaak Boehlert**
 
 
 Quality Control:
 
-
+# Information On Git and Github
 If you have not used git or github please checkout the resources below:
 
 if you have not used git before it can be kind of weird, but you won't need to do anything to crazy with it, so those tutorial will cover basically anything you need to do here.
