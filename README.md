@@ -5,16 +5,16 @@ It consists of four main folder representing the four main roles.
 There is folder for the Group Lead, For the StringSet Revisited lab (13a), for Rooms and More (13b), and for Quality Control.
 Put your name next to the Section you are working on
 
-Group Lead:
+Group Lead: **Rylan Ahmadi**
 
 
-StringSet Lab:
+StringSet Lab: **Anthony Clark**
 
 
 Rooms and More: **Isaak Boehlert**
 
 
-Quality Control:
+Quality Control: **Michele Pham**
 
 # Information On Git and Github
 If you have not used git or github please checkout the resources below:
