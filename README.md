@@ -8,7 +8,7 @@ Put your name next to the Section you are working on
 Group Lead:
 
 
-StringSet Lab:
+StringSet Lab:**AJ Clark**
 
 
 Rooms and More: **Isaak Boehlert**
