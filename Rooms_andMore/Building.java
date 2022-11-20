@@ -22,18 +22,20 @@ public class Building {
             if (inp == 1) {
                 int area = 100;
                 System.out.println("If the classroom is the standrad size (100 sq ft) enter y . If it is a custom size enter n:  y/n");
-                if (kybd.next().equals("n")) {
+                String inpuser = kybd.nextLine();
+                if (inpuser.equals("n")) {
                     System.out.println("Enter the area of the classroom: ");
                     area =Integer.parseInt(kybd.nextLine());
                 }
                 System.out.println("Are there any chairs in the classroom? y/n");
-                if (kybd.next().equals("y")) {
+                String userInput = kybd.nextLine();
+                if (userInput.equals("y")) {
                     System.out.println("Enter the number of chairs in the classroom: ");
                     int chairs =Integer.parseInt(kybd.nextLine());
                     Classroom classTestNumberChairs = new Classroom(area, chairs);
                     System.out.println(classTestNumberChairs);
                     myBuilding.classrooms.add(classTestNumberChairs);
-                } else {
+                } else if (userInput.equals("n")) {
                     Classroom classTestNumberChairs = new Classroom(area);
                     System.out.println(classTestNumberChairs);
                     myBuilding.classrooms.add(classTestNumberChairs);
@@ -43,7 +45,8 @@ public class Building {
             } else if (inp == 2) {
                 int elevatorArea = 20;
                 System.out.println("Is the elevator the standard size (20 sq ft) enter y . If it is a custom size enter n:  y/n");
-                if (kybd.next().equals("n")) {
+                String userElevatorInput = kybd.nextLine();
+                if (userElevatorInput.equals("n")) {
                     System.out.println("Enter the area of the elevator: ");
                     elevatorArea =Integer.parseInt(kybd.nextLine());
                 }
@@ -56,13 +59,13 @@ public class Building {
                     int floors =Integer.parseInt(kybd.nextLine());
                     current.up(floors);
                     System.out.println(current);
-                    myBuilding.elevators.add(current);
+
                 } else if (next.equals("d")) {
                     System.out.println("Enter the number of floors you would like to move down: ");
                     int floors =Integer.parseInt(kybd.nextLine());
                     current.down(floors);
                     System.out.println(current);
-                    myBuilding.elevators.add(current);
+
                 }
 
                 // add current to the ArrayList
