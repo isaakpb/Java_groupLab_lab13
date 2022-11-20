@@ -12,8 +12,10 @@ public class Elevator extends Room {
     public void down(int floors){
         this.currentFloor -= floors;
     }
-
-    public static String toString(){
+    public int getArea(){
+        return super.area;
+    }
+    public String toString(){
         return "Elevator: " + super.area + " square feet " + "Capacity: " + super.getCapacity() + " Current Floor: " + this.currentFloor;
     }
 }

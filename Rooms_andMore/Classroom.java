@@ -19,7 +19,7 @@ public class Classroom extends Room{
         return this.numberOfChairs;
     }
 
-    public static String toString(){
-        return "Classroom: " + super.area + " square feet " + "Capacity: " + (super.area / 9) + " Chairs: " + this.numberOfChairs;
+    public  String toString(){
+        return "Classroom: " + super.area + " square feet " + "Capacity: " + (super.getCapacity()) + " Chairs: " + this.numberOfChairs;
     }
 }

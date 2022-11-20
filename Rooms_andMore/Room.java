@@ -16,7 +16,7 @@ public class Room {
        return this.area / 9;
    }
 
-   public static String toString(){
+   public  String toString(){
        return "Room: " + this.area + " square feet" + " Capcity: " + this.getCapacity();
    }
 }
